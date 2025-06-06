@@ -2,37 +2,57 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width,
-    initial-scale=1.0">
-
-	<title>Resumes</title>
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resumes</title>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+    }
+    td {
+      padding: 20px;
+      vertical-align: top;
+      border: 1px solid #ccc;
+      width: 200px; /* optional, controls cell width */
+    }
+    img {
+      width: 150px;
+      height: 150px;
+      display: block;
+      margin: 10px auto 0 auto;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+  </style>
 </head>
 
-<body style="text-align:center; font-family: Arial, sans-serif;">
+<body>
 
-	<h3>Read about Hanna and John here!</h3>
+  <h1>Read about Hanna and John here!</h1>
 
-	<div style="display: flex; justify-content: center; gap: 40px; margin-top: 20px;">
+  <table>
+    <tr>
+      <td style= "border: none;">
+        <h4>Hanna</h4>
+        <img src="hanna.jpeg" alt="Hanna" />
+        <br>
+        <button onclick="document.location='cv1.html'">Hanna's Resume</button>
+      </td>
 
-		<div>
-			<p>Hanna's Resume</p>
-			<button onclick="document.location='default.asp'">Hanna</button>
-
-			<img scr="hanna.jpeg" alt="Hanna"
-				style="width: 150px; height: 150px; display: block; margin: 0 auto; object-fit: cover; border-radius: 50%;" />
-
-		</div>
-
-		<div>
-			<p>John's Resume</p>
-			<button onclick="document.location='portfolio.asp'">John</button>
-		</div>
-
-	</div>
+      <td style= "border: none;">
+        <h4>John</h4>
+        <img src="john.jpg" alt="John" />
+        <br>
+        <button onclick="document.location='portfolio.asp'">John's Resume</button>
+      </td>
+    </tr>
+  </table>
 
 </body>
-
 
 </html>
