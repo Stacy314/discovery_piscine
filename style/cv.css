@@ -1,0 +1,14 @@
+body {
+	scroll-behavior: smooth;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+
+section {
+	padding: 100px 20px;
+}
