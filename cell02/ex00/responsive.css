@@ -1,0 +1,26 @@
+html, body {
+    margin: 0;
+	padding: 0;
+    height: 100%;
+}
+
+table {
+    width: 100%;
+    height: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: center;
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+}
+
+.box1 {
+    background-color: #fcff61;
+}
+
+.box2 {
+    background-color: #6fa3ff;
+}
